@@ -24,6 +24,7 @@ class AppDetailsViewModelSpec: QuickSpec {
                 expect(target.trackName).to(equal("X"))
                 expect(target.sellerName).to(equal("TWITTER INTERNATIONAL UNLIMITED COMPANY"))
                 expect(target.artistName).to(equal("X Corp."))
+                expect(target.averageUserRating).to(equal("4.58"))
                 expect(target.formattedPrice).to(equal("Free"))
                 expect(target.imageUrl?.absoluteString).to(equal("https://is1-ssl.mzstatic.com/image/thumb/Purple221/v4/85/37/41/85374178-13dc-1a75-f304-d66cedc3de1c/ProductionAppIcon-0-0-1x_U007emarketing-0-8-0-0-0-85-220.png/512x512bb.jpg"))
                 

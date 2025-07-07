@@ -64,7 +64,7 @@ private extension AppDetailsViewController {
         self.trackNameLabel.text = viewModel.trackName
         self.artistLabel.text = viewModel.artistName
         self.priceLabel.text = viewModel.formattedPrice
-        self.averageRatingLabel.text = viewModel.averageUserRating?.toRoundedString()
+        self.averageRatingLabel.text = viewModel.averageUserRating
         self.descriptionLabel.text = viewModel.description
     }
 }

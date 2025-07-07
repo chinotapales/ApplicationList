@@ -1,0 +1,24 @@
+{
+  "configurations" : [
+    {
+      "id" : "E6D69EFA-8514-417C-8A9D-7198410E5085",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "target" : {
+        "containerPath" : "container:ApplicationList.xcodeproj",
+        "identifier" : "825F19322E1B903E00A9D01D",
+        "name" : "ApplicationListTests"
+      }
+    }
+  ],
+  "version" : 1
+}

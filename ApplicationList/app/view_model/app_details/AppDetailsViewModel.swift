@@ -14,7 +14,7 @@ class AppDetailsViewModel {
     var artistName: String
     var description: String?
     var formattedPrice: String?
-    var averageUserRating: Double?
+    var averageUserRating: String?
     var imageUrl: URL?
     
     init(appInfo: AppInfo) {
@@ -23,7 +23,7 @@ class AppDetailsViewModel {
         self.artistName = appInfo.artistName
         self.description = appInfo.description
         self.formattedPrice = appInfo.formattedPrice
-        self.averageUserRating = appInfo.averageUserRating
+        self.averageUserRating = appInfo.averageUserRating?.toRoundedString()
         self.imageUrl = appInfo.artworkUrl512.toURL()
     }
     

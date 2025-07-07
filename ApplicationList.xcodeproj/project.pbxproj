@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8259CF4E2E1BAFBA0073CF4A /* ApplicationListTests.xctestplan in Resources */ = {isa = PBXBuildFile; fileRef = 8259CF4D2E1BAFBA0073CF4A /* ApplicationListTests.xctestplan */; };
 		825F193E2E1B911E00A9D01D /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = 825F193D2E1B911E00A9D01D /* Nimble */; };
 		825F19412E1B917100A9D01D /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = 825F19402E1B917100A9D01D /* Quick */; };
 		825F19432E1B918C00A9D01D /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 825F19422E1B918C00A9D01D /* RealmSwift */; };
@@ -53,6 +54,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		8259CF4D2E1BAFBA0073CF4A /* ApplicationListTests.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = ApplicationListTests.xctestplan; sourceTree = "<group>"; };
 		825F19332E1B903E00A9D01D /* ApplicationListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplicationListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8294E51C2E1AD297004CCC86 /* ApplicationList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ApplicationList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -110,6 +112,7 @@
 		8294E5132E1AD297004CCC86 = {
 			isa = PBXGroup;
 			children = (
+				8259CF4D2E1BAFBA0073CF4A /* ApplicationListTests.xctestplan */,
 				8294E51E2E1AD297004CCC86 /* ApplicationList */,
 				825F19342E1B903E00A9D01D /* ApplicationListTests */,
 				82A850C72E1B1FDB009228B2 /* Frameworks */,
@@ -247,6 +250,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8259CF4E2E1BAFBA0073CF4A /* ApplicationListTests.xctestplan in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
