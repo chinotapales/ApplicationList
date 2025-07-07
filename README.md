@@ -8,11 +8,11 @@ The apps features are searching through the app store and viewing an app with of
 
 Frameworks Used:
 
-UI - UIKit
-Architecture - MVVM
-Networking - Alamofire
-Data Persistence - RealmSwift
-Image Caching - Kingfisher
+UI - UIKit,
+Architecture - MVVM,
+Networking - Alamofire,
+Data Persistence - RealmSwift,
+Image Caching - Kingfisher,
 Testing - Quick and Nimble
 
 Room for improvement:
